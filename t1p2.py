@@ -10,7 +10,7 @@ midtermTwoGrade = float(
     input("Please enter the grade of your second midterm(%): "))
 midtermTwoWeight = float(
     input("Please enter the weight of your second midterm(%): ")) / 100
-# get thirs grade and weight from user
+# get third grade and weight from user
 midtermThreeGrade = float(
     input("Please enter the grade of your third midterm(%): "))
 midtermThreeWeight = float(
