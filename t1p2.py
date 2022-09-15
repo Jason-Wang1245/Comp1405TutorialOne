@@ -22,8 +22,6 @@ finalExamWeight = float(
     input("Please enter the weight of your final exam(%): ")) / 100
 
 # calculation for the average grade as a percentage
-finalGrade = (midtermOneGrade * midtermOneWeight) + (midtermTwoGrade * midtermTwoWeight) + \
-    (midtermThreeGrade * midtermThreeWeight) + \
-    (finalExamGrade * finalExamWeight)
+finalGrade = (midtermOneGrade * midtermOneWeight) + (midtermTwoGrade * midtermTwoWeight) + (midtermThreeGrade * midtermThreeWeight) + (finalExamGrade * finalExamWeight)
 # output average grade to the user
 print(f"Your average grade is {finalGrade}%.")

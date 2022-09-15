@@ -1,0 +1,22 @@
+Set player1 option to empty string
+Set player2 option to empty string
+Set player1 score to 0
+Set player2 score to 0
+
+While (player1 score is less than 4) and (player2 score is less than 4):
+Get rock, paper, or scissor as input from player1 and set it to player1 option
+Get rock, paper, or scissor as input from player2 and set it to player2 option
+
+If (player1 selects rock and player2 selects rock) or (player1 selects scissors and player2 selects scissors) or (player1 selects paper and player2 selects paper):
+	Output the round outcome as a tie
+If (player1 selects rock and player2 selects scissors) or (player1 selects paper and player2 selects rock) or (player1 selects scissors and player2 selects paper):
+	Output player1 as the round winner
+	Increase player1 score by 1
+If (player1 selects paper and player2 selects scissors) or (player1 selects rock and player2 selects paper) or (player1 selects scissors and player2 selects rock):
+	Output player2 as the round winner
+	Increase player2 score by 1
+
+If player1 score is greater than player2 score:
+	Output player1 as the game winner
+If player2 score is greater than player1 score:
+	Output player2 as the game winner
